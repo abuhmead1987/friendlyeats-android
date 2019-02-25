@@ -38,6 +38,7 @@
     <string name="hint_review">How was your experience?</string>
     <string name="submit">Submit</string>
     <string name="filter_add_review">Add review</string>
+    <string name="menu_about">About</string>
 
     <!-- Types of food I could think of in 5 minutes -->
     <string-array name="categories">
@@ -126,4 +127,5 @@
         <item>@string/sort_by_popularity</item>
         <item>@string/sort_by_price</item>
     </string-array>
+    <string name="title_activity_about">AboutActivity</string>
 </resources>
