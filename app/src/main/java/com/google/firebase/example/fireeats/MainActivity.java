@@ -241,6 +241,9 @@ public class MainActivity extends AppCompatActivity implements
                 AuthUI.getInstance().signOut(this);
                 startSignIn();
                 break;
+            case R.id.menu_about:
+               startActivity(new Intent(MainActivity.this, AboutActivity.class));
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
